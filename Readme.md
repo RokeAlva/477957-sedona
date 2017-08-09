@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Кирилл Гончаров](https://up.htmlacademy.ru/htmlcss/18/user/477957).
-* Наставник: Андрей Островский (https://htmlacademy.ru/profile/grandmaus).
+* Наставник: Андрей Островский https://htmlacademy.ru/profile/grandmaus
 
 ---
 
