@@ -1,100 +1,188 @@
-<!DOCTYPE html>
+п»ї<!DOCTYPE html>
 <head>
-<title>Седона - отели</title>
+<title>РЎРµРґРѕРЅР° - РѕС‚РµР»Рё</title>
 </head>
+
 <body>
-<header class="hotels-header">
-<img src="http://placehold.it/150x100" height="150" width="100" alt="логотип Седоны" class="hotels-header-logo">
-<nav class="hotels-header-navigation">
-<ul>
-<li><a href="#">информация</a></li>
-<li><a href="#">фото и видео</a></li>
-<li><a href="#">карта штата</a></li>
-<li><a href="#">гостиницы</a></li>
-</ul>
-</nav>
+<header class="site-header">
+	<a class="header-logo-link" href="index.html"><img class="header-logo" src="http://placehold.it/150x100" height="70" width="140" alt="Р»РѕРіРѕС‚РёРї РЎРµРґРѕРЅС‹"> </a>
+		<nav class="site-header-navigation">
+			<ul class="site-navigation-list">
+				<li class="site-navigation-item"><a href="#">РёРЅС„РѕСЂРјР°С†РёСЏ</a></li>
+				<li class="site-navigation-item"><a href="#">С„РѕС‚Рѕ Рё РІРёРґРµРѕ</a></li>
+				<li class="site-navigation-item"><a href="#">РєР°СЂС‚Р° С€С‚Р°С‚Р°</a></li>
+				<li class="site-navigation-activeitem"><a href="#">РіРѕСЃС‚РёРЅРёС†С‹</a></li>
+			</ul>
+		</nav>
 </header>
-
 <main class="hotels-main">
-<section class="hotels-main-infrastructure">
-<h2>инфраструктура</h2>
-<ul>
-<li><input type="checkbox" checked><label>бассейн</label></li>
-<li><input type="checkbox"><label>Парковка</label></li>
-<li><input type="checkbox"><label>wi-fi</label></li>
-</ul>
-</section>
-<section class="hotels-main-typeofhouses">
-<h2>тип жилья:</h2>
-<ul>
-<li><input type="checkbox" checked><label>гостиница</label></li>
-<li><input type="checkbox" checked><label>мотель</label></li>
-<li><input type="checkbox" checked><label>апартаменты</label></li>
-</ul>
-</section>
-<section class="hotels-main-cost">
-<h2>стоимость в сутки (р)</h2>
-<button class="hotels-main-cost-show">Показать</button>
-</section>
-<section class="hotels-main-cost-sort">
-<h3>найдено:3</h3>
-<ul>
-<li>сортировка:</li>
-<li><a href="#">по цене</a></li>
-<li><a href="#">по типу</a></li>
-<li><a href="#">по рейтингу</a></li>
-</ul>
-<img src="http://placehold.it/150x100" height="15" width="15" alt="треугольник вверх" class="hotels-main-cost-sort-triangleup">
-<img src="http://placehold.it/150x100" height="15" width="15" alt="треугольник вниз" class="hotels-main-cost-sort-triangledown">
-</section>
+	<section class="hotels-parameters">
+	<h2>РџРѕРёСЃРє РѕС‚РµР»СЏ РїРѕ РїР°СЂР°РјРµС‚СЂР°Рј</h2>
+		<form class="hotels-parametres-fields">
+				<div class="hotel-parameters-left">
+					<fieldset class="hotels-parametres-column">
+					<span class="hotels-parameters-title">РРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂР°:</span>
+					<ul class="hotel-parameters-list">
+						<li class="hotel-parameters-item">
+							<input type="checkbox" checked>
+								<label>Р‘Р°СЃСЃРµР№РЅ</label>
+						</li>
+						<li class="hotel-parameters-item">
+							<input type="checkbox">
+								<label>РџР°СЂРєРѕРІРєР°</label>
+						</li>
+						<li class="hotel-parameters-item">
+							<input type="checkbox">
+								<label>Wi-fi</label>
+						</li>
+					</ul>
+				</fieldset>	
+				</div>
 
-<div class="hotels-main-hotels">
-<ul>
-<li>
-<b>Amara Resort & Spa</b>
-<p>Гостиница</p>
-<p>от 4000р</p>
-<img src="http://placehold.it/150x100" height="50" width="50" alt="Амара ресорт" class="hotels-main-hotels-photo">
-<a href="#">подробнее</a>
-<button>забронировать</button>
-<p>рейтинг: 8,5</p>
-</li>
+				<div class="hotel-parameters-right">
+				<fieldset class="hotels-parametres-column">	
+					<span class="hotels-selection-title">РўРёРї Р¶РёР»СЊСЏ:</span>
+					<ul class="hotel-parameters-list">
+						<li class="hotel-parameters-item">
+							<input type="checkbox" checked>
+								<label>Р“РѕСЃС‚РёРЅРёС†Р°</label>
+						</li>
+						<li class="hotel-parameters-item">
+							<input type="checkbox"  checked>
+								<label>РњРѕС‚РµР»СЊ</label>
+						</li>
+						<li class="hotel-parameters-item">
+							<input type="checkbox"  checked>
+								<label>РђРїРїР°СЂС‚Р°РјРµРЅС‚С‹</label>
+						</li>
+					</ul>
+				</fieldset>
+				</div>
+		
+				<div class="hotels-parameteres-slider">
+					<span class="parameteres-slider-title">CС‚РѕРёРјРѕСЃС‚СЊ РІ СЃСѓС‚РєРё (СЂ)</span>
+						<button class="hotels-main-cost-show" type="submit">РџРѕРєР°Р·Р°С‚СЊ</button>
+				</div>
+		</form>
+	</section>
 
-<li>
-<b>Desert quail inn</b>
-<p>мотель</p>
-<p>от 3000р</p>
-<img src="http://placehold.it/150x100" height="50" width="50" alt="десерт кваил" class="hotels-main-hotels-photo">
-<a href="#">подробнее</a>
-<button>забронировать</button>
-<p>рейтинг: 8,9</p>
-</li>
+	<section class="hotels-sorted">
+		<h3>РќР°Р№РґРµРЅРѕ:3</h3>
+		<span class="hotels-sorted-title">РЎРѕСЂС‚РёСЂРѕРІРєР°:</span>
+		<ul class="hotels-sorted-list">
+			<li class="hotels-sorted-item">
+				<a class="hotels-sorted-link" href="#">РџРѕ С†РµРЅРµ</a>
+			</li>
+			<li class="hotels-sorted-list">
+				<a class="hotels-sorted-link" href="#">РџРѕ С‚РёРїСѓ</a>
+			</li>
+			<li class="hotels-sorted-list">
+				<a class="hotels-sorted-link" href="#">РџРѕ СЂРµР№С‚РёРЅРіСѓ</a>
+			</li>
+		</ul>
+		<a class="hotels-sorted-triangle-up" href="#">Up</a>
+		<a class="hotels-sorted-triangle-down" href="#">Down</a>
+	</section>
 
-<li>
-<b>villas at poco diablo</b>
-<p>апаратаменты</p>
-<p>от 2000р</p>
-<img src="http://placehold.it/150x100" height="50" width="50" alt="виллас эт поко" class="hotels-main-hotels-photo">
-<a href="#">подробнее</a>
-<button>забронировать</button>
-<p>рейтинг: 9,2</p>
-</li>
-</ul>
-</div>
+
+	<section class="hotels-sorted-results">
+		<h2>Р РµР·СѓР»СЊС‚Р°С‚С‹ РїРѕРёСЃРєР°</h2>
+	<article class="hotel">
+  		<div class="hotel-inner">
+    		<div class="hotel-image">
+     		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="Р“РѕСЃС‚РёРЅРёС†Р°">
+    		</div>
+    		<div class="hotel-info">
+      			<h2 class="hotel-title">Amara resort $ spa</h2>
+      			<span class="hotel-type">Р“РѕСЃС‚РёРЅРёС†Р° <span>РћС‚ 4000 СЂ.</span></span>
+      		<div class="hotel-button-wrapper">
+        	<a href="" class="hotel-button  hotel-button-blue">РџРѕРґСЂРѕР±РЅРµРµ</a>
+        	<a href="" class="hotel-button  hotel-button-brown">Р—Р°Р±СЂРѕРЅРёСЂРѕРІР°С‚СЊ</a>
+      		</div>
+   			 </div>
+  		</div>
+  		<div class="hotel-rate">
+    		<ul class="hotel-rate-list">
+      			<li class="hotel-rate-item">*</li>
+      			<li class="hotel-rate-item">*</li>
+     		 	<li class="hotel-rate-item">*</li>
+      			<li class="hotel-rate-item">*</li>
+      			<li class="hotel-rate-item">*</li>
+    		</ul>
+    		<span class="hotel-rate-value">Р РµР№С‚РёРЅРі: 8,5</span>
+  		</div>
+	</article>
+
+<article class="hotel">
+  		<div class="hotel-inner">
+    		<div class="hotel-image">
+     		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="РњРѕС‚РµР»СЊ">
+    		</div>
+    		<div class="hotel-info">
+      			<h2 class="hotel-title">Desert quail inn</h2>
+      			<span class="hotel-type">РњРѕС‚РµР»СЊ<span>РћС‚ 3000 СЂ.</span></span>
+      		<div class="hotel-button-wrapper">
+        	<a href="" class="hotel-button  hotel-button-blue">РџРѕРґСЂРѕР±РЅРµРµ</a>
+        	<a href="" class="hotel-button  hotel-button-brown">Р—Р°Р±СЂРѕРЅРёСЂРѕРІР°С‚СЊ</a>
+      		</div>
+   			 </div>
+  		</div>
+  		<div class="hotel-rate">
+    		<ul class="hotel-rate-list">
+      			<li class="hotel-rate-item">*</li>
+      			<li class="hotel-rate-item">*</li>
+     		 	<li class="hotel-rate-item">*</li>
+      		</ul>
+    		<span class="hotel-rate-value">Р РµР№С‚РёРЅРі: 8,9</span>
+  		</div>
+	</article>
+
+<article class="hotel">
+  		<div class="hotel-inner">
+    		<div class="hotel-image">
+     		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="РђРїРїР°СЂС‚Р°РјРµРЅС‚С‹">
+    		</div>
+    		<div class="hotel-info">
+      			<h2 class="hotel-title">Villas at poco diablo</h2>
+      			<span class="hotel-type">РђРїРїР°СЂР°С‚Р°РјРµРЅС‚С‹<span>РћС‚ 2000 СЂ.</span></span>
+      		<div class="hotel-button-wrapper">
+        	<a href="" class="hotel-button  hotel-button-blue">РџРѕРґСЂРѕР±РЅРµРµ</a>
+        	<a href="" class="hotel-button  hotel-button-brown">Р—Р°Р±СЂРѕРЅРёСЂРѕРІР°С‚СЊ</a>
+      		</div>
+   			 </div>
+  		</div>
+  		<div class="hotel-rate">
+    		<ul class="hotel-rate-list">
+      			<li class="hotel-rate-item">*</li>
+      			<li class="hotel-rate-item">*</li>
+       		</ul>
+    		<span class="hotel-rate-value">Р РµР№С‚РёРЅРі: 9,2</span>
+  		</div>
+	</article>
+</section>
 </main>
 
-
-
-<footer class="index-footer">
-<b>#visitsedona</b>
-<div class="index-footer-social">
-<a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="twitter" class="index-footer-socialbuttons"></a>
-<a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="facebook" class="index-footer-socialbuttons"></a>
-<a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="youtube" class="index-footer-socialbuttons"></a>
-</div>
-<div class="index-footer-aboutus">
-<p>website by</p>
-<a href="#"><img src="http://placehold.it/150x100" height="50" width="150" alt="about-us" class="index-footer-aboutus-logo"></a>
-</div>
+<footer class="site-footer">
+<a class="hashteg" href="#">#visitsedona</a>
+<article class="footer-socialbuttons">
+<h3>РњС‹ РІ СЃРѕС†. СЃРµС‚СЏС…</h3>
+<ul class="socialbuttons-list">
+	<li class="socialbuttons-list-item">
+		<a class="socialbuttons-list-twitter" href="#">t</a>
+	</li>
+	<li class="socialbuttons-list-item">
+		<a  class="socialbuttons-list-facebook" href="#">f</a>
+	</li>
+	<li class="socialbuttons-list-item">
+		<a  class="socialbuttons-list-youtube" href="#">y</a>
+	</li>
+</ul>
+</article>
+<address class="footer-address">
+	<span class="website-autors">website by</span>
+	<a class="website-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+		<img class="autors-logo" src="http://placehold.it/150x100" height="50" width="150" alt="about-us" >
+	</a>
+</address>
 </footer>
 </body>
