@@ -1,32 +1,37 @@
 ﻿<!DOCTYPE html>
-<<<<<<< HEAD
-=======
-<meta charset="utf-8">
-
->>>>>>> db11f1ad3c0ae651ea3884bc594bf2249eea76c8
 <head>
+<meta charset="utf-8">
 <title>Седона - отели</title>
 </head>
 
 <body>
-<<<<<<< HEAD
 <header class="site-header">
-	<a class="header-logo-link" href="index.html"><img class="header-logo" src="http://placehold.it/150x100" height="70" width="140" alt="логотип Седоны"> </a>
-		<nav class="site-header-navigation">
-			<ul class="site-navigation-list">
-				<li class="site-navigation-item"><a href="#">информация</a></li>
-				<li class="site-navigation-item"><a href="#">фото и видео</a></li>
-				<li class="site-navigation-item"><a href="#">карта штата</a></li>
-				<li class="site-navigation-activeitem"><a href="#">гостиницы</a></li>
-			</ul>
-		</nav>
+	<a class="header-logo-link" href="index.html">
+		<img class="header-logo" src="http://placehold.it/150x100" height="70" width="140" alt="логотип Седоны"> 
+	</a>
+	<nav class="site-navigation">
+		<ul class="site-navigation-list">
+			<li class="site-navigation-item">
+				<a class="site-navigation-link" href="#">информация</a>
+			</li>
+			<li class="site-navigation-item">
+				<a class="site-navigation-link" href="#">фото и видео</a>
+			</li>
+			<li class="site-navigation-item">
+				<a class="site-navigation-link" href="#">карта штата</a>
+			</li>
+			<li class="site-navigation-activeitem">
+				<a class="site-navigation-link" href="#">гостиницы</a>
+			</li>
+		</ul>
+	</nav>
 </header>
 <main class="hotels-main">
 	<section class="hotels-parameters">
 	<h2>Поиск отеля по параметрам</h2>
 		<form class="hotels-parametres-fields">
 				<div class="hotel-parameters-left">
-					<fieldset class="hotels-parametres-column">
+					<fieldset class="hotels-parametres-column" >
 					<span class="hotels-parameters-title">Инфраструктура:</span>
 					<ul class="hotel-parameters-list">
 						<li class="hotel-parameters-item">
@@ -67,13 +72,13 @@
 		
 				<div class="hotels-parameteres-slider">
 					<span class="parameteres-slider-title">Cтоимость в сутки (р)</span>
-						<button class="hotels-main-cost-show" type="submit">Показать</button>
+						<button class="hotels-main-show" type="submit">Показать</button>
 				</div>
 		</form>
 	</section>
 
 	<section class="hotels-sorted">
-		<h3>Найдено:3</h3>
+		<h2>Найдено:3</h2>
 		<span class="hotels-sorted-title">Сортировка:</span>
 		<ul class="hotels-sorted-list">
 			<li class="hotels-sorted-item">
@@ -86,98 +91,13 @@
 				<a class="hotels-sorted-link" href="#">По рейтингу</a>
 			</li>
 		</ul>
-		<a class="hotels-sorted-triangle-up" href="#">Up</a>
-		<a class="hotels-sorted-triangle-down" href="#">Down</a>
+		<a class="hotels-sorted-triangle triangle-up" href="#">Up</a>
+		<a class="hotels-sorted-triangle triangle-down" href="#">Down</a>
 	</section>
-=======
-	<header class="hotels-header">
-	   <img src="http://placehold.it/150x100" height="150" width="100" alt="логотип Седоны" class="hotels-header-logo">
-	   <nav class="hotels-header-navigation">
-	   <ul>
-		<li><a href="#">информация</a></li>
-		<li><a href="#">фото и видео</a></li>
-		<li><a href="#">карта штата</a></li>
-		<li><a href="#">гостиницы</a></li>
-	   </ul>
-	   </nav>
-	</header>
-
-	<main class="hotels-main">
-	   <section class="hotels-main-infrastructure">
-	      <h2>инфраструктура</h2>
-	      <ul>
-		<li><input type="checkbox" checked><label>бассейн</label></li>
-		<li><input type="checkbox"><label>Парковка</label></li>
-		<li><input type="checkbox"><label>wi-fi</label></li>
-	     </ul>
-	   </section>
-
-	<section class="hotels-main-typeofhouses">
-	   <h2>тип жилья:</h2>
-	      <ul>
-		 <li><input type="checkbox" checked><label>гостиница</label></li>
-		 <li><input type="checkbox" checked><label>мотель</label></li>
-		 <li><input type="checkbox" checked><label>апартаменты</label></li>
-	     </ul>
-	</section>
-
-	<section class="hotels-main-cost">
-	   <h2>стоимость в сутки (р)</h2>
-	   <button class="hotels-main-cost-show">Показать</button>
-	</section>
-
-	<section class="hotels-main-cost-sort">
-	   <h3>найдено:3</h3>
-	       <ul>
-		 <li>сортировка:</li>
-		 <li><a href="#">по цене</a></li>
-		 <li><a href="#">по типу</a></li>
-		 <li><a href="#">по рейтингу</a></li>
-	      </ul>
-	   <img src="http://placehold.it/150x100" height="15" width="15" alt="треугольник вверх" class="hotels-main-cost-sort-triangleup">
-	   <img src="http://placehold.it/150x100" height="15" width="15" alt="треугольник вниз"  class="hotels-main-cost-sort-triangledown">
-	</section>
-
-	<div class="hotels-main-hotels">
-	   <ul>
-	      <li>
-		<b>Amara Resort & Spa</b>
-		<p>Гостиница</p>
-		<p>от 4000р</p>
-		<img src="http://placehold.it/150x100" height="50" width="50" alt="Амара ресорт" class="hotels-main-hotels-photo">
-		<a href="#">подробнее</a>
-		<button>забронировать</button>
-		<p>рейтинг: 8,5</p>
-	      </li>
-
-	      <li>
-		<b>Desert quail inn</b>
-		<p>мотель</p>
-		<p>от 3000р</p>
-		<img src="http://placehold.it/150x100" height="50" width="50" alt="десерт кваил" class="hotels-main-hotels-photo">
-		<a href="#">подробнее</a>
-		<button>забронировать</button>
-		<p>рейтинг: 8,9</p>
-	      </li>
-
-	      <li>
-		<b>villas at poco diablo</b>
-		<p>апаратаменты</p>
-		<p>от 2000р</p>
-		<img src="http://placehold.it/150x100" height="50" width="50" alt="виллас эт поко" class="hotels-main-hotels-photo">
-		<a href="#">подробнее</a>
-		<button>забронировать</button>
-		<p>рейтинг: 9,2</p>
-	      </li>
-	   </ul>
-	</div>
-	</main>
->>>>>>> db11f1ad3c0ae651ea3884bc594bf2249eea76c8
-
 
 	<section class="hotels-sorted-results">
 		<h2>Результаты поиска</h2>
-	<article class="hotel">
+	<div class="hotel">
   		<div class="hotel-inner">
     		<div class="hotel-image">
      		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="Гостиница">
@@ -186,8 +106,8 @@
       			<h2 class="hotel-title">Amara resort $ spa</h2>
       			<span class="hotel-type">Гостиница <span>От 4000 р.</span></span>
       		<div class="hotel-button-wrapper">
-        	<a href="" class="hotel-button  hotel-button-blue">Подробнее</a>
-        	<a href="" class="hotel-button  hotel-button-brown">Забронировать</a>
+        	<a class="hotel-button  hotel-button-blue" href="" >Подробнее</a>
+        	<a class="hotel-button  hotel-button-brown" href="" >Забронировать</a>
       		</div>
    			 </div>
   		</div>
@@ -201,10 +121,9 @@
     		</ul>
     		<span class="hotel-rate-value">Рейтинг: 8,5</span>
   		</div>
-	</article>
+	</div>
 
-<<<<<<< HEAD
-<article class="hotel">
+	<div class="hotel">
   		<div class="hotel-inner">
     		<div class="hotel-image">
      		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="Мотель">
@@ -213,8 +132,8 @@
       			<h2 class="hotel-title">Desert quail inn</h2>
       			<span class="hotel-type">Мотель<span>От 3000 р.</span></span>
       		<div class="hotel-button-wrapper">
-        	<a href="" class="hotel-button  hotel-button-blue">Подробнее</a>
-        	<a href="" class="hotel-button  hotel-button-brown">Забронировать</a>
+        	<a class="hotel-button  hotel-button-blue" href="" >Подробнее</a>
+        	<a class="hotel-button  hotel-button-brown" href="" >Забронировать</a>
       		</div>
    			 </div>
   		</div>
@@ -226,9 +145,9 @@
       		</ul>
     		<span class="hotel-rate-value">Рейтинг: 8,9</span>
   		</div>
-	</article>
+	</div>
 
-<article class="hotel">
+	<div class="hotel">
   		<div class="hotel-inner">
     		<div class="hotel-image">
      		<img class="hotel-result-image" src="http://placehold.it/150x100" height="90" width="135" alt="Аппартаменты">
@@ -237,8 +156,8 @@
       			<h2 class="hotel-title">Villas at poco diablo</h2>
       			<span class="hotel-type">Аппаратаменты<span>От 2000 р.</span></span>
       		<div class="hotel-button-wrapper">
-        	<a href="" class="hotel-button  hotel-button-blue">Подробнее</a>
-        	<a href="" class="hotel-button  hotel-button-brown">Забронировать</a>
+        	<a class="hotel-button  hotel-button-blue" href="" >Подробнее</a>
+        	<a class="hotel-button  hotel-button-brown" href="" >Забронировать</a>
       		</div>
    			 </div>
   		</div>
@@ -249,46 +168,31 @@
        		</ul>
     		<span class="hotel-rate-value">Рейтинг: 9,2</span>
   		</div>
-	</article>
+	</div>
 </section>
 </main>
 
 <footer class="site-footer">
-<a class="hashteg" href="#">#visitsedona</a>
-<article class="footer-socialbuttons">
-<h3>Мы в соц. сетях</h3>
-<ul class="socialbuttons-list">
-	<li class="socialbuttons-list-item">
-		<a class="socialbuttons-list-twitter" href="#">t</a>
-	</li>
-	<li class="socialbuttons-list-item">
-		<a  class="socialbuttons-list-facebook" href="#">f</a>
-	</li>
-	<li class="socialbuttons-list-item">
-		<a  class="socialbuttons-list-youtube" href="#">y</a>
-	</li>
-</ul>
-</article>
-<address class="footer-address">
-	<span class="website-autors">website by</span>
-	<a class="website-academy" href="https://htmlacademy.ru/intensive/htmlcss">
-		<img class="autors-logo" src="http://placehold.it/150x100" height="50" width="150" alt="about-us" >
-	</a>
-</address>
+	<a class="hashtag" href="#">#visitsedona</a>
+	<article class="footer-social-buttons">
+		<h3>Мы в соц. сетях</h3>
+		<ul class="social-buttons-list">
+			<li class="social-buttons-list-item">
+				<a class="social-buttons-link" href="#">twitter</a>
+			</li>
+			<li class="social-buttons-list-item">
+				<a  class="social-buttons-link" href="#">facebook</a>
+			</li>
+			<li class="social-buttons-list-item">
+				<a  class="social-buttons-link" href="#">youtube</a>
+			</li>
+		</ul>
+	</article>
+	<address class="footer-address">
+		<span class="website-autors">website by</span>
+		<a class="website-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+			<img class="autors-logo" src="http://placehold.it/150x100" height="50" width="150" alt="about-us" >
+		</a>
+	</address>
 </footer>
-=======
-	<footer class="index-footer">
-	   <b>#visitsedona</b>
-	   <div class="index-footer-social">
-	      <a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="twitter" class="index-footer-socialbuttons"></a>
-	      <a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="facebook" class="index-footer-socialbuttons"></a>
-	      <a href="#"><img src="http://placehold.it/150x100" height="50" width="50" alt="youtube" class="index-footer-socialbuttons"></a>
-	   </div>
-	   <div class="index-footer-aboutus">
-	      <p>website by</p>
-              <a href="#"><img src="http://placehold.it/150x100" height="50" width="150" alt="about-us" class="index-footer-aboutus-logo"></a>
-           </div>
-	</footer>
-
->>>>>>> db11f1ad3c0ae651ea3884bc594bf2249eea76c8
 </body>
